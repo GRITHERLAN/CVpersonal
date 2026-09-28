@@ -203,9 +203,14 @@
 
 @media (max-width: 800px) {
 
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
     .content__about,
     .content__resume,
     .content__contact {
-        padding: 5rem 0 5rem 0;
+        padding: 0;
     }
 }
