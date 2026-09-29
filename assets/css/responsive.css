@@ -199,13 +199,8 @@
         width: 100%;
     }
 
-    .about__title::after{
+    .about__title::after {
         display: none;
-    }
-
-    .resume__career{
-        max-height: 40rem;
-        overflow: scroll;
     }
 
 }
@@ -217,8 +212,11 @@
     }
 
     .content__about,
-    .content__resume,
     .content__contact {
         padding: 0;
+    }
+
+    .content__resume {
+        padding: 0px 0px 5rem 0px;
     }
 }
