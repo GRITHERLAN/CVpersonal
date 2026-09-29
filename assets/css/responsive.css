@@ -203,6 +203,11 @@
         display: none;
     }
 
+    .resume__career{
+        max-height: 40rem;
+        overflow: scroll;
+    }
+
 }
 
 @media (max-width: 800px) {
