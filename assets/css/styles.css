@@ -281,7 +281,8 @@ h6 {
 /* Sobre Mi y Estudios */
 .content__about,
 .content__resume,
-.content__contact {
+.content__contact,
+.content__portfolio {
     height: 100%;
     min-height: 100%;
     padding: 10rem 3rem 3rem 8rem;
@@ -291,6 +292,7 @@ h6 {
 
 .about__header,
 .resume__header,
+.portfolio__header,
 .contact__header,
 .contact__form-header {
     display: inline-block;
@@ -300,6 +302,7 @@ h6 {
 .about__title,
 .resume__title,
 .contact__title,
+.portfolio__title,
 .form-header__title {
     position: relative;
     font-size: 3.2rem;
@@ -308,6 +311,7 @@ h6 {
 .about__title::after,
 .resume__title::after,
 .contact__title::after,
+.portfolio__title::after,
 .form-header__title::after {
     content: "";
     position: absolute;
@@ -636,4 +640,29 @@ h6 {
 
 .layout__menu-toggle{
     display: none;
+}
+
+/* portafolio */
+
+.portfolio__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.portfolio__container a{
+    width: 50%;
+   margin-bottom: 4rem;
+}
+
+.pag__img {
+    border-radius: 4rem;
+    width: 90%;
+    transition: 400ms;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+}
+
+.pag__img:hover {
+    width: 95%;
 }
