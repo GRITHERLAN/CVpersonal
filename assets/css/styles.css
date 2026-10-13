@@ -338,6 +338,7 @@ h6 {
 .personal-info__bio {
     width: 45%;
     color: var(--color-text);
+    text-align: justify;
 }
 
 .personal-info__option {
@@ -430,7 +431,7 @@ h6 {
 
 .exp__company-name {
     width: 100%;
-    padding: 2rem;
+    padding: 1.8rem;
     margin-bottom: 3rem;
     border-radius: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.10);
@@ -447,10 +448,14 @@ h6 {
     margin-bottom: 3rem;
 }
 
+.exp__functions{
+    text-align: justify;
+}
+
 .resume__container {
     display: grid;
-    grid-template-areas: "resume__left resume__right";
-    grid-template-columns: 50% 50%;
+    grid-template-areas: "resume__left resume__right" "bottom bottom";
+    grid-template-columns: 50% 50% 100%;
 }
 
 .resume__subtitle {
@@ -466,6 +471,10 @@ h6 {
     margin-bottom: 10px;
 }
 
+.career__resume{
+    text-align: justify;
+}
+
 .resume__career {
     border-left: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 3rem;
@@ -476,13 +485,12 @@ h6 {
 
 .resume__right {
     width: 100%;
-
+    grid-area: resume__right;
 }
 
 .resume__subheader {
     margin-bottom: 3rem;
 }
-
 
 .resume__progress-bar {
     display: flex;
@@ -509,6 +517,10 @@ h6 {
     border-radius: 1rem;
 }
 
+.resume__bottom {
+    grid-area: bottom;
+}
+
 .resume__certi {
     display: flex;
     flex-direction: row;
@@ -516,7 +528,7 @@ h6 {
 }
 
 .resume__certi a {
-    width: 50%;
+    width: 30%;
     margin-bottom: 2rem;
 }
 
@@ -638,7 +650,7 @@ h6 {
     transform: translateX(10px);
 }
 
-.layout__menu-toggle{
+.layout__menu-toggle {
     display: none;
 }
 
@@ -651,9 +663,9 @@ h6 {
     width: 100%;
 }
 
-.portfolio__container a{
+.portfolio__container a {
     width: 50%;
-   margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .pag__img {
