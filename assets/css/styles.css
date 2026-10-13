@@ -1,9 +1,9 @@
 /* estilos generales */
 :root {
     --color-principal: #FFFFFF;
-    --color-secondary: #2A2B2E;
+    --color-secondary: #04B4E0;
 
-    --color-background: gray;
+    --color-background: #F1F6F8;
     --color-transparent: transparent;
 
     --color-icon: #B5B6B7;
@@ -560,7 +560,7 @@ h6 {
     margin-bottom: 1.5rem;
     padding: 2rem 1rem;
     text-align: center;
-    background-color: var(--color-principal);
+    background-color: var(--color-background);
     border: 1px solid #e5e6e7;
 }
 
