@@ -1,9 +1,9 @@
 /* estilos generales */
 :root {
     --color-principal: #FFFFFF;
-    --color-secondary: #04B4E0;
+    --color-secondary: #2A2B2E;
 
-    --color-background: #F1F6F8;
+    --color-background: gray;
     --color-transparent: transparent;
 
     --color-icon: #B5B6B7;
@@ -448,7 +448,7 @@ h6 {
     margin-bottom: 3rem;
 }
 
-.exp__functions{
+.exp__functions {
     text-align: justify;
 }
 
@@ -471,7 +471,7 @@ h6 {
     margin-bottom: 10px;
 }
 
-.career__resume{
+.career__resume {
     text-align: justify;
 }
 
