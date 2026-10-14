@@ -227,6 +227,10 @@
         font-size: 1.1rem;
     }
 
+    .resume__certi{
+        padding-bottom: 3rem;
+    }
+
     .resume__certi a {
         width: 30%;
     }
