@@ -223,11 +223,15 @@
         padding: 0rem 0rem 2rem 2rem;
     }
 
+    .content__portfolio {
+        padding: 3rem;
+    }
+
     .exp__company-name {
         font-size: 1.1rem;
     }
 
-    .resume__certi{
+    .resume__certi {
         padding-bottom: 3rem;
     }
 
